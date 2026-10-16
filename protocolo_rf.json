@@ -1,0 +1,26 @@
+{
+  "cenario": "binario",
+  "arquivos": {
+    "train": "C:\\Users\\Daniel\\Downloads\\arbovirus-brasil-eda-main\\data\\processed\\binario\\train_tree.parquet",
+    "val": "C:\\Users\\Daniel\\Downloads\\arbovirus-brasil-eda-main\\data\\processed\\binario\\val_tree.parquet",
+    "test": "C:\\Users\\Daniel\\Downloads\\arbovirus-brasil-eda-main\\data\\processed\\binario\\test_tree.parquet"
+  },
+  "tamanhos_amostrados": {
+    "train": 99535,
+    "val": 29845,
+    "test": 79817
+  },
+  "seed": 42,
+  "folhas_candidatas": [
+    2,
+    10
+  ],
+  "folha_escolhida": 10,
+  "class_weight": "balanced",
+  "hospitalizacao_incluida": false,
+  "mes_e_regiao_incluidos": true,
+  "split_original": "aleatorio estratificado 70/15/15 (src/02_preprocess.py)",
+  "criterio": "AUC de validacao",
+  "threshold": 0.5,
+  "nota": "Importância por impureza é exploratória; pode favorecer atributos com muitas categorias."
+}
